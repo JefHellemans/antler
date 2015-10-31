@@ -46,7 +46,7 @@ gulp.task("css", function() {
         }))
         .pipe(sourcemaps.init())
         .pipe(cssMinifier())
-        .pipe(concat("site.css"))
+        .pipe(concat("style.min.css"))
         .pipe(sourcemaps.write())
         .pipe(gulp.dest("./src/dist/css"))
         .pipe(notify({
