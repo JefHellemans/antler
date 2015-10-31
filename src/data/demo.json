@@ -1,0 +1,54 @@
+{
+  "user": {
+    "name": "Tina Tine",
+    "available": 100000,
+    "investments": [
+      {
+        "traderId": 1,
+        "amount": 40000
+      },
+      {
+        "traderId": 2,
+        "amount": 25000
+      },
+      {
+        "traderId": 3,
+        "amount": 15000
+      }
+    ]
+  },
+  "traders": [
+    {
+      "id": 1,
+      "name": "Mark Moose"
+    },
+    {
+      "id": 2,
+      "name": "Michelle Moose"
+    },
+    {
+      "id": 3,
+      "name": "Michael Moose"
+    }
+  ],
+  "positions": [
+    {
+      "id": 1,
+      "traderId": 1,
+      "datetime": "31-10-2015 18:27:41",
+      "stock": "AAPL",
+      "price": 119.5,
+      "short": false,
+      "percentage": 12
+    },
+    {
+      "id": 2,
+      "traderId": 1,
+      "datetime": "31-10-2015 18:27:41",
+      "stock": "GOOG",
+      "price": 710.81,
+      "short": true,
+      "percentage": 9
+    }
+  ]
+}
